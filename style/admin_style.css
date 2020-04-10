@@ -1,0 +1,138 @@
+.index-body{
+	background-color: #d793f5;
+}
+
+.form-content{
+  margin: auto;
+  width: 30%;
+  padding: 10px;	
+  margin-top: 10%;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.form-content .admin-head{
+	font-size: 2em;
+	text-align: center;
+}
+
+.submit-btn{
+	float: right;
+	background-color: #d793f5;
+}
+
+@media only screen and (max-width: 768px){
+	.form-content{
+		width: 80%;
+	}
+
+  .form-content-internal{
+    width: 100%;
+  }
+
+  .cover{
+    display: none;
+  }
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d793f5;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav li a:hover {
+  color: black;
+  background-color: #e3e1dc;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.sidenav *{
+	color: white;
+	list-style-type: none;
+}
+
+.menu{
+	padding: 10px;
+}
+
+.menu li{
+	width: 200px;
+}
+
+.menu li a{
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sub li a{
+	margin-left: 20px;
+}
+
+.item-head{
+	cursor: pointer;
+	padding: 10px;
+}
+
+.main-content{
+	background-color: white;
+	color: black;
+}
+
+.dashboard-body{
+	background-color: #e3e1dc;
+}
+
+.caret{
+	position: relative;float: right;top: 10px;right: 10px;
+}
+
+.dash-cont{
+	margin-left: 200px;margin-right: 200px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 600px){
+	#main {
+  		margin: 0;
+		padding: 0;
+  	}
+
+  	#main nav ul li{
+  		padding: 10px;
+  	}
+
+  	.sub-head{
+  		display: none;
+  	}
+
+  	.dash-cont{
+		margin: 10px;
+	}
+}
